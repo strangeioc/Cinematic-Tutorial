@@ -37,11 +37,9 @@ public class FKCrane : MonoBehaviour
         {
             armPieces[a] = armBase.transform.GetChild(a);
         }
-        
-        Debug.Log(standChildren);
     }
 
-    void Update()
+    void LateUpdate()
     {
         // Move and rotate the arm
         armBase.transform.localPosition = new Vector3(0, standHeight, 0);

@@ -155,7 +155,7 @@ MonoBehaviour:
     m_PreExtrapolationMode: 0
     m_PostExtrapolationTime: 0
     m_PreExtrapolationTime: 0
-    m_DisplayName: Important push (2)
+    m_DisplayName: Less disquienting push (2)
   - m_Version: 1
     m_Start: 344.43784933959444
     m_ClipIn: 0
@@ -206,7 +206,7 @@ MonoBehaviour:
     m_PreExtrapolationMode: 0
     m_PostExtrapolationTime: 0
     m_PreExtrapolationTime: 0
-    m_DisplayName: Important push (3)
+    m_DisplayName: Less disquienting push (3)
   m_Markers:
     m_Objects: []
 --- !u!114 &-8975437658652855887
@@ -5919,7 +5919,7 @@ MonoBehaviour:
     m_Start: 115.767570138102
     m_ClipIn: 0
     m_Asset: {fileID: 7508964827928198357}
-    m_Duration: 130.216666666667
+    m_Duration: 130.233333333334
     m_TimeScale: 1
     m_ParentTrack: {fileID: -5809719575441093795}
     m_EaseInDuration: 0
@@ -5985,10 +5985,10 @@ MonoBehaviour:
     m_PreExtrapolationTime: 0
     m_DisplayName: Translation
   - m_Version: 1
-    m_Start: 245.984236804769
+    m_Start: 246.000903471436
     m_ClipIn: 0
     m_Asset: {fileID: -3573380918942672870}
-    m_Duration: 88.55000000000001
+    m_Duration: 98.55000000000001
     m_TimeScale: 1
     m_ParentTrack: {fileID: -5809719575441093795}
     m_EaseInDuration: 0
@@ -6054,7 +6054,7 @@ MonoBehaviour:
     m_PreExtrapolationTime: 0
     m_DisplayName: Rotation
   - m_Version: 1
-    m_Start: 334.53423680476914
+    m_Start: 344.5509034714366
     m_ClipIn: 0
     m_Asset: {fileID: 7869090774780284388}
     m_Duration: 68
@@ -6123,7 +6123,7 @@ MonoBehaviour:
     m_PreExtrapolationTime: 0
     m_DisplayName: Zoom
   - m_Version: 1
-    m_Start: 402.53423680476914
+    m_Start: 412.550903471436
     m_ClipIn: 0
     m_Asset: {fileID: 4550695241111968696}
     m_Duration: 23.633333333332985
@@ -6192,10 +6192,10 @@ MonoBehaviour:
     m_PreExtrapolationTime: 0
     m_DisplayName: Advanced
   - m_Version: 1
-    m_Start: 426.1675701381021
+    m_Start: 436.1842368047693
     m_ClipIn: 0
     m_Asset: {fileID: -5514214082912868466}
-    m_Duration: 45
+    m_Duration: 59.25
     m_TimeScale: 1
     m_ParentTrack: {fileID: -5809719575441093795}
     m_EaseInDuration: 0
@@ -6261,10 +6261,10 @@ MonoBehaviour:
     m_PreExtrapolationTime: 0
     m_DisplayName: Tracking
   - m_Version: 1
-    m_Start: 471.1675701381021
-    m_ClipIn: 0
+    m_Start: 495.4342368047693
+    m_ClipIn: 0.00000000000022737367544323206
     m_Asset: {fileID: -6301975411607866332}
-    m_Duration: 80
+    m_Duration: 60.016666666666765
     m_TimeScale: 1
     m_ParentTrack: {fileID: -5809719575441093795}
     m_EaseInDuration: 0
@@ -6330,7 +6330,7 @@ MonoBehaviour:
     m_PreExtrapolationTime: 0
     m_DisplayName: Dolly Zoom
   - m_Version: 1
-    m_Start: 551.1675701381027
+    m_Start: 555.450903471436
     m_ClipIn: 0
     m_Asset: {fileID: -4814390289684751639}
     m_Duration: 30.016666666667
@@ -6399,7 +6399,7 @@ MonoBehaviour:
     m_PreExtrapolationTime: 0
     m_DisplayName: Arc
   - m_Version: 1
-    m_Start: 581.1842368047696
+    m_Start: 585.4675701381029
     m_ClipIn: 0
     m_Asset: {fileID: -4425286820137534156}
     m_Duration: 50
@@ -6468,10 +6468,10 @@ MonoBehaviour:
     m_PreExtrapolationTime: 0
     m_DisplayName: Boom
   - m_Version: 1
-    m_Start: 631.1842368047696
+    m_Start: 635.4675701381029
     m_ClipIn: 0
     m_Asset: {fileID: 5892191375943037640}
-    m_Duration: 5
+    m_Duration: 25
     m_TimeScale: 1
     m_ParentTrack: {fileID: -5809719575441093795}
     m_EaseInDuration: 0
@@ -6537,7 +6537,7 @@ MonoBehaviour:
     m_PreExtrapolationTime: 0
     m_DisplayName: Aerial
   - m_Version: 1
-    m_Start: 636.1842368047696
+    m_Start: 660.4675701381029
     m_ClipIn: 0
     m_Asset: {fileID: -2495153669133519153}
     m_Duration: 35
@@ -6606,7 +6606,7 @@ MonoBehaviour:
     m_PreExtrapolationTime: 0
     m_DisplayName: Shake
   - m_Version: 1
-    m_Start: 671.1842368047696
+    m_Start: 695.4675701381032
     m_ClipIn: 0
     m_Asset: {fileID: 7531714449917688036}
     m_Duration: 20
@@ -6675,10 +6675,10 @@ MonoBehaviour:
     m_PreExtrapolationTime: 0
     m_DisplayName: Impulse
   - m_Version: 1
-    m_Start: 691.1842368047696
+    m_Start: 715.4675701381032
     m_ClipIn: 0
     m_Asset: {fileID: -8511702497014687154}
-    m_Duration: 10
+    m_Duration: 15
     m_TimeScale: 1
     m_ParentTrack: {fileID: -5809719575441093795}
     m_EaseInDuration: 0

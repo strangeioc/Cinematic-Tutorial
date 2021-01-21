@@ -7,30 +7,44 @@ public class MatchCam : MonoBehaviour
 {
 
     public Camera referenceCam;
+    public Transform referenceTransform;
+    public bool matchTranslation = true;
+    public bool matchRotation = true;
 
-    private Vector3 initPos;
-    private Vector3 refInitPos;
+    //private Vector3 referencePosition;
+    // private Vector3 refInitPos;
+
     void OnEnable()
     {
-        if (referenceCam == null)
+        if (referenceCam == null || referenceTransform == null)
             return;
 
-        initPos = Vector3.zero;
-        refInitPos = referenceCam.transform.position;
-        
+        //referencePosition = referenceTransform.position;
+        // refInitPos = referenceCam.transform.position;
     }
     
     
-    void Update()
+    void LateUpdate()
     {
-        if (referenceCam == null)
+        if (referenceCam == null || referenceTransform == null)
             return;
-        Quaternion q = referenceCam.transform.rotation;
-        Vector3 v3 = q.eulerAngles;
-        // Vector3 newV3 = new Vector3(v3.z, v3.y, -v3.x);
-        
-        transform.rotation = Quaternion.Euler(v3);
 
-        transform.position = initPos + (referenceCam.transform.position - refInitPos);
+        if (matchRotation)
+        {
+            Quaternion q = referenceCam.transform.rotation * Quaternion.Inverse(referenceTransform.rotation);
+            Vector3 v3 = q.eulerAngles;
+            transform.rotation = Quaternion.Euler(v3);
+        }
+        
+        if (matchTranslation)
+        {
+            Vector3 move = referenceTransform.position - referenceCam.transform.position;
+            Vector3 direction = referenceTransform.rotation * (Vector3.forward);
+
+            transform.position = Quaternion.Euler(direction) * move;
+
+        }
+
+        Debug.Log("new: " + referenceCam.transform.position);
     }
 }
