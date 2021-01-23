@@ -238,7 +238,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &801938942
 Transform:
   m_ObjectHideFlags: 0
@@ -659,6 +659,15 @@ PrefabInstance:
     - target: {fileID: 6351076037083450118, guid: f5af08f56ea318045b2345acee6ed67c, type: 3}
       propertyPath: m_LocalRotation.z
       value: -0.09673864
+      objectReference: {fileID: 0}
+    - target: {fileID: 6351076037238962803, guid: f5af08f56ea318045b2345acee6ed67c, type: 3}
+      propertyPath: m_WarningMessage
+      value: "\nBinding warning: Some generic clip(s) animate transforms that are
+        already bound by a Humanoid avatar. These transforms can only be changed
+        by Humanoid clips.\n\tTransform 'RightEye'\n\tTransform 'Hips'\n\tTransform
+        'RightThumbDistal'\n\tTransform 'LeftThumbIntermediate'\n\tTransform 'LeftPinkyProximal'\n\tTransform
+        'RightUpperLeg'\n\tTransform 'RightLowerArm'\n\tTransform 'Spine'\n\tTransform
+        'RightToes'\n\tTransform 'Head'\n\tand more ..."
       objectReference: {fileID: 0}
     - target: {fileID: 6351076037238962807, guid: f5af08f56ea318045b2345acee6ed67c, type: 3}
       propertyPath: m_Name
@@ -1534,6 +1543,15 @@ PrefabInstance:
     - target: {fileID: 6794658146729837128, guid: 02a7cfe4c8dee21479132991bfe7f033, type: 3}
       propertyPath: m_LocalRotation.z
       value: 0.07452458
+      objectReference: {fileID: 0}
+    - target: {fileID: 6802491003315761342, guid: 02a7cfe4c8dee21479132991bfe7f033, type: 3}
+      propertyPath: m_WarningMessage
+      value: "\nBinding warning: Some generic clip(s) animate transforms that are
+        already bound by a Humanoid avatar. These transforms can only be changed
+        by Humanoid clips.\n\tTransform 'RightEye'\n\tTransform 'Hips'\n\tTransform
+        'RightThumbDistal'\n\tTransform 'LeftThumbIntermediate'\n\tTransform 'LeftPinkyProximal'\n\tTransform
+        'RightUpperLeg'\n\tTransform 'RightLowerArm'\n\tTransform 'Spine'\n\tTransform
+        'RightToes'\n\tTransform 'Head'\n\tand more ..."
       objectReference: {fileID: 0}
     - target: {fileID: 6954368951080468356, guid: 02a7cfe4c8dee21479132991bfe7f033, type: 3}
       propertyPath: m_LocalRotation.w

@@ -464,7 +464,12 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6351076037238962803, guid: f5af08f56ea318045b2345acee6ed67c, type: 3}
       propertyPath: m_WarningMessage
-      value: 
+      value: "\nBinding warning: Some generic clip(s) animate transforms that are
+        already bound by a Humanoid avatar. These transforms can only be changed
+        by Humanoid clips.\n\tTransform 'RightEye'\n\tTransform 'Hips'\n\tTransform
+        'RightThumbDistal'\n\tTransform 'LeftThumbIntermediate'\n\tTransform 'LeftPinkyProximal'\n\tTransform
+        'RightUpperLeg'\n\tTransform 'RightLowerArm'\n\tTransform 'Spine'\n\tTransform
+        'RightToes'\n\tTransform 'Head'\n\tand more ..."
       objectReference: {fileID: 0}
     - target: {fileID: 6351076037238962807, guid: f5af08f56ea318045b2345acee6ed67c, type: 3}
       propertyPath: m_Name
